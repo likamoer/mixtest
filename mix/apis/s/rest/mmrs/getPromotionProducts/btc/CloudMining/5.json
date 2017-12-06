@@ -1,0 +1,29 @@
+{
+  "status": 1,
+  "info": "ok",
+  "data": {
+    "products":[{
+      "id": 1,
+      "name": "产品名", 
+      "status": 1,
+      "price": 299.9,
+      "hashType": "btc",
+      "miningType": "CloundMining",
+      "hashrate": 1000000000,
+      "watt": 60,
+      "contractPeriod": 365,
+      "description": "name CloundMining hashType miningType name C name CloundMining hashType miningType name CloundMining hashType miningType CloundMining"
+    }, {
+      "id": 1,
+      "name": "产品名", 
+      "status": 1,
+      "price": 289.9,
+      "hashType": "btc",
+      "miningType": "CloundMining",
+      "hashrate": 1000000000,
+      "watt": 60,
+      "contractPeriod": 365,
+      "description": "产品描述"
+    }]
+  }
+}

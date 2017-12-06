@@ -1,0 +1,20 @@
+{
+  "status": 1,
+  "info": "request successed!",
+  "data": {
+    "product": {
+      "id": 2,
+      "name": "One Year Cloud Mining Plan",
+      "status": 5,
+      "price": 298.0,
+      "hashrate": 1.0E12,
+      "hashType": "btc",
+      "miningType": "CloudMining",
+      "contractPeriod": 365,
+      "openDate": "20171130000000",
+      "description": "100% Guaranteed Uptime and Stable Hashrate\r Daily Fee 0.28 USD\r Current Daily Returns 0.00039202 BTC ($3.77) per day\r 9.09 PH/s Stock Remaining",
+      "contractDescription": "Terms and Conditions (short version) \r Net mining revenue will accumulate in your account, and may be withdrawn at any time, provided the balance exceeds 0.01 BTC.\r Contract will end if fees exceeds revenue for 60 consecutive days.\r If revenue is lower than fees, then fees will be reduced to prevent you from having a negative balance\r Your account will be switched to PPS payments if it is currently set to PPLNS\r ",
+      "date": "20171130000000"
+    }
+  }
+}

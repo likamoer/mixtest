@@ -1,0 +1,29 @@
+{
+  "status": 1,
+  "info": "ok",
+  "data": {
+    "products":[{
+      "id": 1,
+      "name": "eth AntMiner S7", 
+      "status": 1,
+      "price": 299.9,
+      "hashType": "btc",
+      "miningType": "CloundMining",
+      "hashrate": 1000000000,
+      "watt": 60,
+      "contractPeriod": 365,
+      "description": "产品描述"
+    }, {
+      "id": 1,
+      "name": "AntMiner S9", 
+      "status": 1,
+      "price": 399.9,
+      "hashType": "btc",
+      "miningType": "CloundMining",
+      "hashrate": 1000000000,
+      "watt": 60,
+      "contractPeriod": 365,
+      "description": "产品描述"
+    }]
+  }
+}

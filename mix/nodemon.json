@@ -1,0 +1,12 @@
+{
+  "verbose": false,
+  "execMap": {
+    "js": "node --harmony"
+  },
+  "ignore": [
+    "apis",
+    "dist",
+    "src",
+    "package.json"
+  ]
+}
