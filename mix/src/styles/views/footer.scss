@@ -1,0 +1,90 @@
+
+.mix-footer {
+  .el-footer {
+    background: #2d2d35;
+    padding: 80px 0;
+    text-align: left;
+    .wrap {
+      max-width: 1240px;
+      padding: 0 100px;
+      margin: 0 auto;
+    }
+    .logo {
+      color: #fff;
+      text-align: left;
+      font-size: 26px;
+      padding-bottom: 50px;
+    }
+    .social-wrap {
+      .twitter, .weibo, .facebook, .google {
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        margin-right: 20px;
+      }
+      .twitter {
+        background: url('~assets/images/views/index/icon-twitter.png') center center no-repeat;
+        background-size: contain;
+      }
+      .weibo {
+        background: url('~assets/images/views/index/icon-weibo.png') center center no-repeat;
+        background-size: contain;
+      }
+      .facebook {
+        background: url('~assets/images/views/index/icon-facebook.png') center center no-repeat;
+        background-size: contain;
+      }
+      .google {
+        background: url('~assets/images/views/index/icon-google.png') center center no-repeat;
+        background-size: contain;
+      }
+    }
+    .copyright {
+      font-size: 14px;
+      color: #9d9aa9;
+      padding: 20px 0;
+    }
+    .about {
+      .list {
+        display: inline-block;
+        vertical-align: top;
+        font-weight: normal;
+        &:not(:first-child) {
+          margin-left: 120px;
+        }
+        .title {
+          color: #fff;
+          font-size: 14px;
+          line-height: 40px;
+        }
+        li {
+          a {
+            position: relative;
+            font-size: 14px;
+            line-height: 30px;
+            color: #9d9aa9;
+            text-decoration: none;
+            transition: color .25s;
+            &:after {
+                content: '';
+                width: 0;
+                height: 1px;
+                background: #9d9aa9;
+                position: absolute;
+                bottom: -2px;
+                left: 0;
+                transition: width .25s;
+            }
+            &:hover {
+              color: #ddd;
+              &:after {
+                background: #ddd;
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

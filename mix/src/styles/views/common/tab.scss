@@ -1,0 +1,38 @@
+.tab-prod {
+  margin: 0 auto;
+  padding-bottom: 50px;
+  max-width: 1200px;
+  .tab-item {
+    color: #bbb;
+    .wrap {
+      width: 80px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    &:after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 3px;
+      margin: 0 auto;
+      background: $mc1;
+      transition: width ease-out .25s;
+    }
+    &.active, &:hover {
+      color: $mc2;
+      &:after {
+        width: 60px;
+      }
+      .icon-prod {
+        opacity: 1;
+      }
+    }
+    .name {
+      font-size: 16px;
+      padding: 15px 0 5px;
+    }
+  }
+}
+.tab-prod-cont {
+  margin: 0 auto;
+}

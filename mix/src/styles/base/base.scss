@@ -1,0 +1,15 @@
+b, strong {
+  font-weight: bold;
+}
+
+/* 图标文字 */
+@font-face {
+  font-family: 'iconfont';
+  src: url('../assets/fonts/iconfont.eot');
+  src: url('../assets/fonts/iconfont.eot#iefix') format('embedded-opentype'),
+       url('../assets/fonts/iconfont.ttf') format('truetype'),
+       url('../assets/fonts/iconfont.woff') format('woff'),
+       url('../assets/fonts/iconfont.svg#iconfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

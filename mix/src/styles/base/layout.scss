@@ -1,0 +1,11 @@
+@import "color";
+
+html, body {
+  min-height: 100%;
+  background-color: $mc5;
+  color: $textColor;
+  font-family: "Myriad Pro","Helvetica Neue","Helvetica","PingFang SC", "Microsoft YaHei","Verdana","Arial","sans-serif";
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>mix</title>
+  <!-- <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.loading.css[0] %>" />-->
+</head>
+<body>
+  <div id="app">
+    <span class="page-loading"></span>
+  </div>
+
+  <!--<script src="vue.2.4.4.min.js"></script>
+  <script src="vue-router.2.7.0.min.js"></script>-->
+
+  <script src="https://cdn.bootcss.com/vue/2.5.2/vue.min.js"></script>
+  <script src="https://cdn.bootcss.com/vue-router/2.7.0/vue-router.min.js"></script>
+  <!--<script src="https://cdn.bootcss.com/vuex/2.2.1/vuex.min.js"></script>-->
+
+  <link rel="stylesheet" href="<%= htmlWebpackPlugin.files.chunks.app.css[0] %>" />
+  <script src="<%= htmlWebpackPlugin.files.chunks.app.entry %>" async></script>
+</body>
+</html>

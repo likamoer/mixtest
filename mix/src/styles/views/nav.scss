@@ -1,0 +1,45 @@
+@import '../base/color';
+
+.nav {
+  overflow: hidden;
+  background: $mc2;
+  color: #f3f2f5;
+  width: 100%;
+  z-index: 1;
+  .logo {
+    height: 60px;
+    line-height: 60px;
+  }
+  .menu-nav {
+    float: right;
+    width: 500px;
+    text-align: right;
+    .nav-item {
+      display: inline-block;
+      a {
+        position: relative;
+        line-height: 60px;
+        padding: 20px;
+        &:after {
+            content: '';
+            width: 0;
+            height: 2px;
+            background: #fff;
+            position: absolute;
+            bottom: 15px;
+            left: 20px;
+            transition: width .25s;
+        }
+        &:hover, &.active {
+          &:after {
+            width: calc(100% - 40px);
+          }
+        }
+      }
+    } 
+  }
+  a{
+    color: #f3f2f5;
+    text-decoration: none;
+  }
+}

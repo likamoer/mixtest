@@ -1,0 +1,63 @@
+@import '../../base/color';
+
+.customer {
+  .wrap {
+    max-width: 1240px;
+    margin: 0 auto;
+    text-align: center;
+    .img {
+      width: 126px;
+      height: 126px;
+      margin: 0 auto 30px;
+      border-radius: 200px;
+      background: url('~assets/images/views/index/jeffery.png')center center no-repeat;
+      background-size: 100%;
+    }
+    .name {
+      font-size: 20px;
+      line-height: 40px;
+      color: $mc2;
+    }
+    .title {
+      font-size: 16px;
+      color: #9d9aa9;
+      padding: 0;
+    }
+    .content {
+      position: relative;
+      width: 860px;
+      margin: 40px auto 0;
+      font-size: 34px;
+      line-height: 40px;
+      color: $mc2;
+      font-family: 'Minion Pro';
+      font-style: italic;
+      overflow: visible;
+      &:before {
+        content: '';
+        top: -10px;
+        left: -4px;
+        transform: rotateX(180deg) rotateY(180deg);
+      }
+      &:after {
+        content: '';
+        bottom: 6px;
+        right: -12px;
+      }
+      &:before, &:after {
+        display: inline-block;
+        position: relative;
+        width: 30px;
+        height: 22px;
+        background: url('~assets/images/views/index/quote.png')center center no-repeat;
+        background-size: 100%;
+      }
+    }
+    .el-carousel__button {
+      width: 12px;
+      height: 12px;
+      border-radius: 12px;
+      background-color: $mc1;
+    }
+  }
+}

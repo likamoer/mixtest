@@ -1,0 +1,140 @@
+@import "base/color";
+
+.hide {
+  display: none !important;
+}
+.ul>.li {
+  list-style-type: disc;
+  &.lower-latin {
+    list-style-type: lower-latin;
+  }
+}
+.ol>.li {
+  list-style-type: decimal;
+}
+
+.absolute {
+  position: absolute;
+}
+.relative {
+  position: relative;
+}
+
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+
+.inline-block {
+  display: inline-block;
+}
+.inline-block-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+.inline-block {
+  display: inline-block;
+  &.middle {
+    vertical-align: middle;
+  }
+  &.bottom {
+    vertical-align: bottom;
+  }
+  &.text-bottom {
+    vertical-align: text-bottom;
+  }
+}
+
+
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+.clear-left::after {
+  content: '';
+  display: block;
+  clear: left;
+}
+.clear-right::after {
+  content: '';
+  display: block;
+  clear: right;
+}
+.clear-both::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.scrollable {
+  -webkit-overflow-scrolling: touch;
+  overflow: auto;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    background: $mc1;
+    border: 1px solid $mc1;
+    color: $mc5;
+    text-align: center;
+    outline: none;
+    margin: 0;
+    transition: .1s;
+    font-weight: 500;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+  &:active, &:hover {
+    background: rgba(156, 142, 116, .9);
+    border-color: rgba(156, 142, 116, .9);
+    cursor: pointer;
+  }
+}
+
+.mail-link {
+  text-decoration: underline;
+}
+
+/* 表格相关 */
+.table-info {
+  width: 100%;
+  font-size: .7rem;
+  color: #666;
+  line-height: 2.25rem;
+  vertical-align: middle;
+  .row {
+    &:nth-child(2n) {
+      background: #FAFAFA;
+    }
+    td, th {
+      text-align: right;
+      &:first-child {
+        padding-left: 0.75rem;
+        text-align: left;
+      }
+      &:last-child {
+        padding-right: 0.75rem;
+      }
+    }
+  }
+  .row-header {
+    background: #FAFAFA;
+    .promote-consume {
+      color: #666;
+    }
+  }
+}

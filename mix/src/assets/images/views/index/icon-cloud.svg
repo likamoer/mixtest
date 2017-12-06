@@ -1,0 +1,184 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+    <style>
+      .cls-1{fill:none;}.cls-2{fill:#2d2d35;}.cls-3{fill:#9c8e74;}.cls-4{fill:#9c8e74;}.cls-5{fill:#fff;}
+      .animate-path {
+        stroke: #2d2d35;
+        stroke-width: 10px;
+      }
+      .animate-path-m {
+        stroke: #9c8e74;
+        stroke-width: 10px;
+      }
+      #path1 {
+        stroke-dasharray: 150;
+        stroke-dashoffset: 0;
+        animation: dash-0 3.5s linear infinite;
+      }
+      #path2 {
+        stroke-dasharray: 110;
+        stroke-dashoffset: 0;
+        animation: dash-2 3s linear infinite;
+      }
+      #path3 {
+        stroke-dasharray: 80;
+        stroke-dashoffset: 0;
+        animation: dash-1 3.5s linear infinite;
+      }
+      #path4 {
+        stroke-dasharray: 80;
+        stroke-dashoffset: 0;
+        animation: dash-1 3s linear infinite;
+      }
+      #path5 {
+        stroke-dasharray: 110;
+        stroke-dashoffset: 0;
+        animation: dash-2 3.5s linear infinite;
+      }
+      #path6 {
+        stroke-dasharray: 150;
+        stroke-dashoffset: 0;
+        animation: dash-0 3s linear infinite;
+      }
+      #path7 {
+        stroke-dasharray: 90;
+        stroke-dashoffset: 0;
+        animation: dash-2 3.5s linear infinite;
+      }
+      #path8 {
+        stroke-dasharray: 90;
+        stroke-dashoffset: 0;
+        animation: dash-1 3s linear infinite;
+      }
+
+      @keyframes dash-0 {
+        0% {
+          stroke-dashoffset: 0;
+        }
+        50% {
+          stroke-dashoffset: 80;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+      @keyframes dash-1 {
+        0% {
+          stroke-dashoffset: 0;
+        }
+        50% {
+          stroke-dashoffset: 40;
+        }
+        100% {
+          stroke-dashoffset: 0;
+        }
+      }
+      @keyframes dash-2 {
+        0% {
+          stroke-dashoffset: 40;
+        }
+        50% {
+          stroke-dashoffset: 0;
+        }
+        100% {
+          stroke-dashoffset: 40;
+        }
+      }
+      .circle-1 {
+        animation: circle 3.5s linear infinite;
+      }
+      .circle-1-1 {
+        animation: circle 3s linear infinite;
+      }
+      @keyframes circle {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(0, 40px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+      .circle-2 {
+        animation: circle2 3s linear infinite;
+      }
+      .circle-2-2 {
+        animation: circle2 3.5s linear infinite;
+      }
+      @keyframes circle2 {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(0, -40px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+      .circle-2-1 {
+        animation: circle3 3.5s linear infinite;
+      }
+      @keyframes circle3 {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(0, -80px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+      .circle-2-3 {
+        animation: circle4 3s linear infinite;
+      }
+      @keyframes circle4 {
+        0% {
+          transform: translate(0, 0);
+        }
+        50% {
+          transform: translate(0, -80px);
+        }
+        100% {
+          transform: translate(0, 0);
+        }
+      }
+</style>
+</defs>
+<title>icon</title>
+  <path class="cls-2 animate-path" id="path1" d="M95 320 L95 470"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-2 circle-2-1" cx="95" cy="470" r="12"></circle>
+  <circle class="cls-5 circle-2-1" cx="95" cy="470" r="4"></circle>
+
+  <path class="cls-2 animate-path" id="path2" d="M125 320 L125 490"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-2 circle-1-1" cx="125" cy="390" r="12"></circle>
+  <circle class="cls-5 circle-1-1" cx="125" cy="390" r="4"></circle>
+
+  <path class="cls-2 animate-path" id="path3" d="M155 320 L155 400"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-2 circle-2-2" cx="155" cy="400" r="12"></circle>
+  <circle class="cls-5 circle-2-2" cx="155" cy="400" r="4"></circle>
+
+  <path class="cls-2 animate-path" id="path4" d="M355 320 L355 400"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-2 circle-2" cx="355" cy="400" r="12"></circle>
+  <circle class="cls-5 circle-2" cx="355" cy="400" r="4"></circle>
+
+  <path class="cls-2 animate-path" id="path5" d="M385 320 L385 490"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-2 circle-1" cx="385" cy="390" r="12"></circle>
+  <circle class="cls-5 circle-1" cx="385" cy="390" r="4"></circle>
+
+  <path class="cls-2 animate-path" id="path6" d="M415 320 L415 470"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-2 circle-2-3" cx="415" cy="470" r="12"></circle>
+  <circle class="cls-5 circle-2-3" cx="415" cy="470" r="4"></circle>
+
+  <path class="cls-2 animate-path-m" id="path7" d="M235 350 L235 440"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-4 circle-1" cx="235" cy="400" r="12"></circle>
+  <circle class="cls-5 circle-1" cx="235" cy="400" r="4"></circle>
+
+  <path class="cls-2 animate-path-m" id="path8" d="M270 350 L270 470"  stroke-linecap="null" stroke-linejoin="null"></path>
+  <circle class="cls-4 circle-2" cx="270" cy="440" r="12"></circle>
+  <circle class="cls-5 circle-2" cx="270" cy="440" r="4"></circle>
+
+<path class="cls-1" d="M102.28,328.84c4.11.61,8.68,1.14,13.61,1.48Q108.69,329.78,102.28,328.84Z"/><path class="cls-1" d="M276.45,251.86c3.91-4.38,3.33-10.61,3.32-10.67s0-.2,0-.3c-.07-1.09-1.18-11.11-17.63-11.11H237.52v26.66c4,.07,11.71.16,25.22.16C269,256.6,273.63,255,276.45,251.86Z"/><path class="cls-1" d="M275.18,284.15H232.24a5,5,0,0,1,0-10h42.94a42.74,42.74,0,0,1,4.27.21,27.52,27.52,0,0,0,17.27-9.2,35,35,0,0,0,8.09-26.86c-2.59-20.39-12-29.48-30.51-29.48H216.09V349H274.3c18.21,0,27.47-9,30-29a34.52,34.52,0,0,0-8-26.46A27.33,27.33,0,0,0,275.18,284.15Zm-45.65-58.37a4,4,0,0,1,4-4h28.59c19.58,0,25.3,12.14,25.62,18.68.12,1.38.62,10.07-5.32,16.73-4.4,4.92-11,7.42-19.67,7.42-23.07,0-29.15-.25-29.4-.26a4,4,0,0,1-3.83-4Zm52.89,104.78c-4.4,4.92-11,7.42-19.67,7.42-23.07,0-29.15-.25-29.4-.26a4,4,0,0,1-3.83-4V299.16a4,4,0,0,1,4-4h28.59c19.58,0,25.3,12.14,25.62,18.68C287.86,315.21,288.36,323.91,282.41,330.56Z"/><path class="cls-1" d="M279.75,314.26c-.07-1.09-1.18-11.11-17.63-11.11H237.52v26.66c4,.07,11.71.16,25.22.16,6.28,0,10.89-1.6,13.7-4.75,3.91-4.38,3.33-10.61,3.32-10.67S279.75,314.36,279.75,314.26Z"/><path class="cls-1" d="M410.19,329c-4.95.68-10.23,1.21-15.87,1.56l3-.18C402,330.05,406.27,329.56,410.19,329Z"/><path class="cls-2" d="M495.53,237a92.11,92.11,0,0,0-26.23-61c-17-17.42-38.78-27-61.47-27h-.6a79.49,79.49,0,0,0-26.65,4.85,133.06,133.06,0,0,0-37-87.25c-25-26-59.54-40.7-94.85-40.37a129.07,129.07,0,0,0-92.71,40,131,131,0,0,0-36.4,84A79.15,79.15,0,0,0,106.37,149h-.6c-22.69,0-44.5,9.57-61.47,27a92.11,92.11,0,0,0-26.23,61c-.83,18.81,3.84,35.64,8.85,44,.44.73.9,1.55,1.41,2.43,6,10.5,17.21,30.07,51.68,40.54l0-.08a137.33,137.33,0,0,0,21,4.75l.72.11.53.08q6.42.93,13.61,1.48c20.64,1.44,46-.4,46-.4a7,7,0,0,0-1.1-14c-40.74,3.21-72-.82-93-12-16.6-8.83-23-20.06-27.26-27.49-.56-1-1.07-1.87-1.56-2.69-6.88-11.46-16.43-55.38,15.4-88C68.64,171.07,86.89,163,105.77,163h.49c18.53.14,36.28,8.19,50,22.68a7,7,0,1,0,10.17-9.62,87.1,87.1,0,0,0-33-22.06,117.08,117.08,0,0,1,32.65-78.1,115.17,115.17,0,0,1,82.74-35.67H250c31,0,61.41,13.11,83.5,36.08a117.14,117.14,0,0,1,33.2,84.15,89.89,89.89,0,0,0-19.46,15.61,7,7,0,0,0,10.17,9.62c13.7-14.49,31.45-22.54,50-22.68,19-.13,37.5,7.94,51.93,22.75,31.83,32.67,22.28,76.59,15.4,88-.49.81-1,1.71-1.56,2.69-4.25,7.43-10.66,18.66-27.26,27.49-21,11.17-52.3,15.2-93,12a7,7,0,0,0-1.1,14l1,.08v.07a392.93,392.93,0,0,0,41.56.49c5.64-.34,10.92-.87,15.87-1.56a140.69,140.69,0,0,0,23-5.05l0,.16c34.78-10.44,46-30.12,52.07-40.66.5-.88,1-1.7,1.41-2.43C491.69,272.67,496.37,255.84,495.53,237Z"/><path class="cls-3" d="M294,278.87a36.94,36.94,0,0,0,9.49-7.76,44.28,44.28,0,0,0,10.27-33.94c-3.14-24.78-16.41-37.35-39.44-37.35h-3.22V174.38a4,4,0,0,0-8,0v25.44H237.91V174.38a4,4,0,0,0-8,0v25.44H199.16a4.5,4.5,0,0,0,0,9h6.93V349h-6.93a5,5,0,1,0,0,10H274.3c23.32,0,36.76-12.71,39.94-37.79a44.8,44.8,0,0,0-10.39-34.33A37.39,37.39,0,0,0,294,278.87Zm10.33,41.07c-2.55,20.09-11.81,29-30,29H216.09V208.82H274.3c18.52,0,27.93,9.09,30.51,29.48a35,35,0,0,1-8.09,26.86,27.52,27.52,0,0,1-17.27,9.2,42.74,42.74,0,0,0-4.27-.21H232.24a5,5,0,0,0,0,10h42.94a27.33,27.33,0,0,1,21.17,9.32A34.52,34.52,0,0,1,304.31,319.94Z"/><path class="cls-3" d="M233.35,264.34c.25,0,6.32.26,29.4.26,8.65,0,15.27-2.5,19.67-7.42,5.94-6.65,5.44-15.34,5.32-16.73-.31-6.53-6-18.68-25.62-18.68H233.52a4,4,0,0,0-4,4v34.56A4,4,0,0,0,233.35,264.34Zm4.17-34.56h24.59c16.45,0,17.56,10,17.63,11.11q0,.15,0,.3c0,.06.59,6.29-3.32,10.67-2.81,3.15-7.42,4.75-13.7,4.75-13.52,0-21.2-.09-25.22-.16Z"/><path class="cls-3" d="M262.12,295.16H233.52a4,4,0,0,0-4,4v34.56a4,4,0,0,0,3.83,4c.25,0,6.32.26,29.4.26,8.65,0,15.27-2.5,19.67-7.42,5.94-6.66,5.44-15.35,5.32-16.73C287.42,307.3,281.69,295.16,262.12,295.16Zm14.33,30.08c-2.81,3.15-7.42,4.75-13.7,4.75-13.52,0-21.2-.09-25.22-.16V303.16h24.59c16.45,0,17.56,10,17.63,11.11,0,.1,0,.2,0,.3S280.36,320.85,276.45,325.23Z"/></svg>

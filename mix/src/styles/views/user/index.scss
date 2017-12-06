@@ -1,0 +1,60 @@
+@import '../../base/color';
+
+.view-user-index {
+  * {
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  .el-aside {
+    height: 100vh;
+    background: $mc2;
+    padding: 20px;
+    .user-head {
+      width: 60px;
+      height: 60px;
+      margin: 0 auto;
+      border-radius: 100px;
+      background: url('~~assets/images/views/index/s9.jpg') center center no-repeat;
+      background-size: 100% auto;
+    }
+    .tab-item {
+      width: 40px;
+      height: 40px;
+      margin: 50px auto;
+      background: url('~~assets/images/views/index/s7.png') center center no-repeat;
+      background-size: 100% auto;
+      a {
+        display: block;
+        width: 40px;
+        height: 40px;
+      }
+    }
+    .logout {
+      text-align: center;
+      .icon {
+        font-size: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+  .el-main {
+    padding: 0;
+    .el-header {
+      background: $mc3;
+    }
+    .title {
+      display: inline-block;
+      font-size: 24px;
+      line-height: 80px;
+      padding: 0 80px 0 20px;
+    }
+    ul {
+      display: inline-block;
+      li {
+        display: inline-block;
+        margin: 0 20px;
+        line-height: 80px;
+      }
+    }
+  }
+}

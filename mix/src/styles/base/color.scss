@@ -1,0 +1,36 @@
+/*主色 main color，可配置*/
+$mc1: #9c8e74;
+$mc2: #131723;
+$mc3: #2d2d35;
+$mc4: #8d919d;
+$mc5: #f3f2f5;
+
+/*文字配色 font color*/
+$fc-mc1: $mc1;
+$fc-mc2: $mc2;
+$fc-black: #505050;
+$fc-gray: #a2a2a2;
+$fc-lightgray: #c2c2c2;
+$fc-deepgrey: #909090;
+$fc-red: #fe4837;
+$fc-brown: #e0a43f;
+
+/*背景颜色 background color*/
+$bc-mc1: $mc1;
+$bc-mc2: $mc2;
+$bc-gray: #a2a2a2;
+$bc-lightgray: #efeff4;
+$bc-deepgray: #cfcfcf;
+$bc-lightyellow: #fef3d9;
+$bc-red: #fe4837;
+
+/*线条颜色 line color*/
+$lc-mc1: $mc1;
+$lc-mc2: $mc2;
+$lc-gray: #eaeaea;
+$lc-brown: #f7e8c3;
+
+$textColor: #f3f2f5;
+$activeColor: #00C2AE;
+$defaultBtnActiveColor: #E1FEFB;
+$primaryBtnActiveColor: #049081;

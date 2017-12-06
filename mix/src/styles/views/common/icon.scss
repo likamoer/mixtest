@@ -1,0 +1,22 @@
+
+.icon-prod {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  opacity: .3;
+  background-size: cover;
+  transition: opacity ease-out .25s;
+}
+.icon-btc {
+  background: url('~assets/images/views/index/bitcoin.svg') center center no-repeat;
+}
+.icon-ltc {
+  background: url('~assets/images/views/index/litecoin.svg') center center no-repeat;
+}
+.icon-eth {
+  background: url('~assets/images/views/index/ethereum.svg') center center no-repeat;
+}
+.icon-zcash {
+  background: url('~assets/images/views/index/zcash.svg') center center no-repeat;
+}

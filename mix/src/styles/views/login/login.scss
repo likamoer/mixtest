@@ -1,0 +1,88 @@
+@import '../../base/color';
+
+.view-login {
+  * {
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+  position: relative;
+  background: #1b1c29;
+  width: 100vw;
+  height: calc(100vh - 60px);
+  .signup-link {
+    position: fixed;
+    line-height: 60px;
+    top: 0;
+    right: 10%;
+    color: $mc5;
+    cursor: pointer;
+    .link {
+      color: $mc5;
+    }
+  }
+  .login-wrap {
+    position: absolute;
+    width: 424px;
+    height: 392px;
+    top: 50%;
+    left: 50%;
+    padding: 30px;
+    margin:  -212px 0 0 -196px;
+    .welcome {
+      font-size: 28px;
+      padding: 20px 0 50px;
+      text-align: center;
+    }
+    .icon-people, .icon-lock, .icon-email {
+      font-size: 18px;
+      line-height: 50px;
+      padding-right: 10px;
+    }
+    .el-form-item {
+      margin-bottom: 10px;
+    }
+    .el-input {
+      .el-input__inner {
+        background: transparent;
+        border: 2px solid #8d8e9b;
+        height: 50px;
+        color: #fff;
+        &:focus {
+          border-color: $mc1;
+        }
+      }
+      .el-input-group__append {
+        background: #8d8e9b;
+        border-color: #8d8e9b;
+        color: #fff;
+        line-height: 46px;
+        cursor: pointer;
+      }
+      .el-form-item__error {
+        display: none;
+      }
+    }
+    .el-button {
+      width: 100%;
+      margin-bottom: 30px;
+      background: $mc1;
+      border-color: $mc1;
+      color: #fff;
+      height: 50px;
+    }
+    .forget-link, .login-link {
+      text-align: center;
+      line-height: 30px;
+      .link {
+        color: $mc5;
+      }
+    }
+  }
+  .signup-wrap {
+    height: 480px;
+    margin-top: -250px;
+    .captcha {
+      margin-bottom: 30px;
+    }
+  }
+}
